@@ -9,7 +9,8 @@
 #include <unordered_map>
 #include <tuple>
 #include <omp.h>
-#include "FoldModels.cpp"
+#include "FoldModels.h"
+#include "Utilities.h"
 
 int main() {
     Timer t1("Full operation");
